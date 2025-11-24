@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='tableContainer'>
         <h1 className='titleText'>Panel praconików — Lista gokartów</h1>
         <table>
           <thead>
@@ -64,7 +64,7 @@ function App() {
             ))}
           </tbody>
         </table>
-        <button>Kontakt do szefa</button>
+        <button className='contactBtn'>Kontakt do szefa</button>
       </div>
     </>
   )

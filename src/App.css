@@ -1,4 +1,61 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.tableContainer {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 .titleText {
     color: #FFD700;
     background-color: #000000;
+    font-weight: bold;
+    margin: 0;
+}
+
+th {
+    background-color: #FFD700;
+    color: black;
+}
+
+td {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+select {
+    background-color: white;
+    outline: 1px solid black;
+}
+
+select:hover {
+    border-color: #FFD700;
+}
+
+input {
+    background-color: white;
+    border: 1px solid black;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+.contactBtn {
+    background-color: #000000;
+    color: #FFD700;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+.contactBtn:hover {
+    background-color: yellow;
+    color: black;
 }
